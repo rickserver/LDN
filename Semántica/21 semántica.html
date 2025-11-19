@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 21 Semántica</title>
+    <link rel="stylesheet" href="21 semántica.css">
+    <!--<link rel="stylesheet" href="21 semánticaa.css">-->
+</head>
+<body>
+    
+    <header>
+        <h1>Mi sitio web</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/about">Acerca de</a>
+            <a href="/contact">Contacto</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- Contenido principal -->
+        <h2>Mi primera página con CSS</h2>
+        <p>Este es el contenido principal de la página.</p>
+
+        <hr>
+
+        <!-- Sección de servicios -->
+         <section>
+            <h2>Servicios</h2>
+            <p>Descripción de servicios en una sección.</p>
+         </section>
+
+         <hr>
+
+         <!-- Artículos -->
+        <section>
+            <h2>Artículos</h2>
+
+            <article id="articulo1">
+                <h3>Título del artículo/noticia 1</h3>
+                <p>Contenido del artículo 1.</p>
+                <p class="fecha">
+                    Publicado el <time datetime="2025-11-11">11 de noviembre de 2025</time>
+                </p>
+            </article>
+
+            <article id="articulo2">
+                <h3>Título del artículo/noticia 2</h3>
+                <p>Contenido del artículo 2.</p>
+                <p class="fecha">
+                    Publicado el <time datetime="2025-11-04">04 de noviembre de 2025</time>
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Imagen ilustrativa -->
+        <section>
+            <h2>Imagen de una playa</h2>
+            <figure>
+                <img src="playa.jpg" alt="Imagen de una playa" style="width: 25%;">
+                <figcaption>Imagen de una playa</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Detalles -->
+        <details>
+            <summary>Ver más detalles sobre el procuto</summary>
+            <p>Este producto está hecho con materiales ecológicos y tiene una garantía de 2 años.</p>
+        </details>
+
+        <hr>
+
+    </main>
+
+    <!-- Contenido complementario -->
+    <aside>
+        <h3>Artículos relacionados</h3>
+        <ul>
+            <li><a href="#articulo1">Artículo 1</a></li>
+            <li><a href="#articulo2">Artículo 2</a></li>
+        </ul>
+    </aside>
+
+        <hr>
+    
+    <footer>
+        <p>@ 2025 Mi sitio web. Todos los derechos reservados.</p>
+        <a href="privacy.html">Política de privacidad</a>
+        <!--<p id="demo"></p>-->
+
+    </footer>
+</body>
+</html>
