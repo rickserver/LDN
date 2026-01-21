@@ -1,0 +1,150 @@
+h1{
+    margin-left: 3em;
+    margin-bottom: 0em;
+}
+
+img {
+    width: 15%;
+    position: absolute;
+    left: 150px;
+    top: 115px;
+    z-index: 10;
+}
+
+#redup{
+    width: 300px;
+    margin-left: 5em;
+    height: 50px;
+    border: 1px solid #AD1519;
+    position: relative;
+}
+
+#redcu1{
+    width: 50px;
+    height: 50px;
+    background-color: #AD1519;
+    position: absolute;
+    left: 0em;
+    text-align: center;
+    line-height: 4em;
+}
+
+#redcu2{
+    width: 50px;
+    height: 50px;
+    background-color: #AD1519;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    line-height: 4em;
+}
+
+#redcu3{
+    width: 50px;
+    height: 50px;
+    background-color: #AD1519;
+    position: absolute;
+    left: 100px;
+    text-align: center;
+    line-height: 4em;
+}
+
+#redcu4{
+    width: 50px;
+    height: 50px;
+    background-color: #AD1519;
+    position: absolute;
+    left: 150px;
+    text-align: center;
+    line-height: 4em;
+}
+
+#redcu5{
+    width: 50px;
+    height: 50px;
+    background-color: #AD1519;
+    position: absolute;
+    left: 200px;
+    text-align: center;
+    line-height: 4em;
+}
+
+#redcu6{
+    width: 50px;
+    height: 50px;
+    background-color: #AD1519;
+    position: absolute;
+    left: 250px;
+    text-align: center;
+    line-height: 4em;
+}
+
+#yellowup{
+    width: 300px;
+    margin-left: 5em;
+    
+    height: 50px;
+    border: 1px solid #FABD00;
+    position: relative;
+}
+
+#yellowupc1{
+    width: 50px;
+    height: 50px;
+    background-color: #FABD00;
+    position: absolute;
+    left: 0em;
+    text-align: center;
+    line-height: 4em;
+}
+
+#yellowupc2{
+    width: 50px;
+    height: 50px;
+    background-color: #FABD00;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    line-height: 4em;
+}
+
+#yellowupc3{
+    width: 50px;
+    height: 50px;
+    background-color: #FABD00;
+    position: absolute;
+    left: 100px;
+    text-align: center;
+    line-height: 4em;
+}
+
+#yellowupc4{
+    width: 50px;
+    height: 50px;
+    background-color: #FABD00;
+    position: absolute;
+    left: 150px;
+    text-align: center;
+    line-height: 4em;
+}
+
+#yellowupc5{
+    width: 50px;
+    height: 50px;
+    background-color: #FABD00;
+    position: absolute;
+    left: 200px;
+    text-align: center;
+    line-height: 4em;
+}
+
+#yellowupc6{
+    width: 50px;
+    height: 50px;
+    background-color: #FABD00;
+    position: absolute;
+    left: 250px;
+    text-align: center;
+    line-height: 4em;
+}
+

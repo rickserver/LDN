@@ -1,0 +1,41 @@
+.flexrojo {
+    display: flex;
+    background-color:#AD1519;
+    flex-direction: row;
+    width: 300px;
+    height: 50px;
+}
+
+.flexrojo > div { 
+  background-color: #AD1519;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.flexyellow {
+    display: flex;
+    background-color: #FABD00;
+    flex-direction: row;
+    width: 300px;
+    height: 50px;
+}
+
+.flexyellow > div {
+  background-color: #FABD00;
+  width: 50px;
+  height: 50px;
+  text-align: center;  
+}
+
+img {
+    width: 100px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    margin-left: 20px;
+}

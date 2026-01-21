@@ -1,0 +1,106 @@
+.grid-ejemplo1 {
+  display: grid;
+  grid-template-columns: 100px auto 100px; /* Tres columnas de 100 px y ancho automático */
+  grid-template-rows: 150px auto 150px; /* Tres filas de 150 px de ancho automático */
+  background-color: #034377;
+
+}
+
+/* Cada item ocupa una celda */
+.grid-ejemplo1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+
+
+/* =======================================================
+   GRID – EJEMPLO 2: Grid con gap y más columnas
+   ======================================================= */
+
+.grid-ejemplo2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto; /* Cuatro columnas */
+  background-color: #03770d;
+  padding: 10px;
+  gap: 10px; /* Espaciado entre celdas */
+}
+
+.grid-ejemplo2-item {
+  background-color: rgba(212, 230, 204, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+/* =======================================================
+   GRID – EJEMPLO 3: grid-template-areas + responsive
+   ======================================================= */
+
+.grid-ejemplo3 {
+  display: grid;
+  background-color: #f1f1f1;
+
+  /* Definimos las áreas del layout en filas */
+  grid-template-areas:
+    "header header header header header header"
+    "left   middle middle middle middle right"
+    "footer footer footer footer footer footer";
+
+  grid-column-gap: 10px; /* separación entre columnas */
+}
+
+/* Áreas nombradas */
+.grid-ejemplo3-header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.grid-ejemplo3-left {
+  grid-area: left;
+  background-color: #aaaaaa;
+  padding: 10px;
+  height: 300px; /* solo demostración */
+}
+
+.grid-ejemplo3-middle {
+  grid-area: middle;
+  background-color: #bbbbbb;
+  padding: 10px;
+  height: 300px; /* solo demostración */
+}
+
+.grid-ejemplo3-right {
+  grid-area: right;
+  background-color: #cccccc;
+  padding: 10px;
+  height: 300px; /* solo demostración */
+}
+
+.grid-ejemplo3-footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Diseño responsive: las áreas se apilan */
+@media (max-width: 600px) {
+  .grid-ejemplo3 {
+    grid-template-areas:
+      "header header header header header header"
+      "left   left   left   left   left   left"
+      "middle middle middle middle middle middle"
+      "right  right  right  right  right  right"
+      "footer footer footer footer footer footer";
+  }
+}
